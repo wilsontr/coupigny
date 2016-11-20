@@ -66,12 +66,12 @@
 					"patching_rect" : [ 709.0, 186.0, 137.0, 22.0 ],
 					"restore" : 					{
 						"PlaybackSpeed" : [ 1.0 ],
-						"TapeLength" : [ 0.0 ],
+						"TapeLength" : [ 59.999981 ],
 						"led" : [ 0 ],
 						"led[1]" : [ 0 ],
 						"number[1]" : [ 0 ],
 						"number[2]" : [ 0 ],
-						"number[3]" : [ 0 ],
+						"number[3]" : [ 59 ],
 						"number[5]" : [ 0.0 ],
 						"rslider" : [ 0.0, 0.0 ],
 						"textbutton" : [ -1 ],
@@ -84,7 +84,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1",
-					"varname" : "u423009093"
+					"varname" : "u927002947"
 				}
 
 			}
@@ -95,9 +95,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 766.0, 71.0, 37.0, 22.0 ],
+					"patching_rect" : [ 766.0, 71.0, 35.0, 22.0 ],
 					"style" : "",
-					"text" : "open"
+					"text" : "read"
 				}
 
 			}
@@ -1273,8 +1273,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
