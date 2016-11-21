@@ -38,6 +38,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 498.0, 139.0, 59.0, 22.0 ],
+					"style" : "",
+					"text" : "*~ 20000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 498.0, 206.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-5",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 498.0, 22.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +97,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr @autoname 1",
-					"varname" : "u202010607"
+					"varname" : "u501003847"
 				}
 
 			}
@@ -583,7 +622,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 34.0, 96.0, 22.0 ],
 					"style" : "",
-					"text" : "FREQUENCY",
+					"text" : "CUTOFF",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -681,6 +720,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -699,10 +756,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
+					"destination" : [ "obj-13", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 296.5, 222.0, 480.25, 222.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -916,6 +972,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -945,9 +1010,9 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "dial[3]", "dial", 0 ],
-			"obj-4" : [ "dial[1]", "dial", 0 ],
 			"obj-7" : [ "dial[2]", "dial", 0 ],
-			"obj-9" : [ "dial", "dial", 0 ]
+			"obj-9" : [ "dial", "dial", 0 ],
+			"obj-4" : [ "dial[1]", "dial", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
