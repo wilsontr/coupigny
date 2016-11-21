@@ -164,7 +164,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1067.0, 779.0, 137.0, 22.0 ],
 					"restore" : 					{
-						"SettingsMatrix" : [ 0, 4, 1, 1, 6, 1, 7, 11, 1, 8, 5, 1, 9, 3, 1 ],
+						"SettingsMatrix" : [ 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 6, 1, 2, 1, 1, 3, 0, 1, 4, 3, 1, 5, 4, 1, 7, 11, 1 ],
 						"textbutton" : [ -1 ]
 					}
 ,
@@ -994,7 +994,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1464.166748, 37.0, 256.833252, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1095.5, 133.0, 256.833252, 128.0 ],
+					"presentation_rect" : [ 1065.5, 133.0, 256.833252, 128.0 ],
 					"varname" : "tapemachine[1]",
 					"viewvisibility" : 1
 				}
@@ -1186,7 +1186,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1187.0, 37.0, 256.833252, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1095.5, 3.0, 256.833252, 128.0 ],
+					"presentation_rect" : [ 1065.5, 3.0, 256.833252, 128.0 ],
 					"varname" : "tapemachine",
 					"viewvisibility" : 1
 				}
@@ -2412,7 +2412,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1741.0, 37.0, 256.833252, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1095.5, 263.0, 256.833252, 128.0 ],
+					"presentation_rect" : [ 1065.5, 263.0, 256.833252, 128.0 ],
 					"varname" : "tapemachine[2]",
 					"viewvisibility" : 1
 				}
@@ -3361,6 +3361,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 4 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-81", 0 ]
 				}
 
 			}
